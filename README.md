@@ -1,68 +1,8 @@
+![](./s100_rmasZLVgXuHN3l7JO46EkBzapshnfjXzG0KuKsPc_logo_39.jpg)
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+# MBGapp: Geostatistical Education for Population Health Scientists by Olatunji Olugoke Johnson
 
-# MBGapp
 
-<!-- badges: start -->
+#### Use app online: __[www.shinyappstore.com/a/MBGapp](https://shinyappstore.com/a/MBGapp)__
 
-[![Travis build
-status](https://travis-ci.org/olatunjijohnson/MBGapp.svg?branch=main)](https://travis-ci.org/olatunjijohnson/MBGapp)
-[![Codecov test
-coverage](https://codecov.io/gh/olatunjijohnson/MBGapp/branch/master/graph/badge.svg)](https://codecov.io/gh/olatunjijohnson/MBGapp?branch=main)
-<!-- badges: end -->
-
-The goal of MBGapp is to allow user to explore and analyse
-geostatistical
-data
-
-## Installation
-
-<!-- You can install the released version of MBGapp from [CRAN](https://CRAN.R-project.org) with: -->
-
-<!-- ``` r -->
-
-<!-- install.packages("MBGapp") -->
-
-<!-- ``` -->
-
-You can install the development version on github by first installing
-devtools package and the install the app with
-
-``` r
-devtools::install_github("olatunjijohnson/MBGapp", ref="main")
-```
-
-## Example
-
-Download an example dataset from
-[here](https://drive.google.com/uc?export=download&id=1nGRuw-UUFYbG0Wl4XD4noxaNb1iyyky9).
-The data consist of the Loa loa prevalence survey data in Cameroon. You
-can also download an example 10km by 10km grid locations in Cameroom and
-the corresponding covariates at the pixel-level from
-[here](https://drive.google.com/uc?export=download&id=1-P880pttLqOlyQnW6_K1MPsEQo_Gh4zM)
-and
-[here](https://drive.google.com/uc?export=download&id=1fe5i08xIghPP_kHUHiL0SNT1usa8L-OD),
-respectively.
-
-This is a basic example which shows you how to run the app:
-
-``` r
-library(MBGapp)
-## run the App
-run_app()  # use the code
-```
-
-## Alternative way to run in R
-
-You can also run the following line of code to run in
-R
-
-``` r
-shiny::runGitHub(repo="MBGapp", username= "olatunjijohnson", ref="main", subdir = "inst/MBGapp")
-```
-
-## Online version
-
-The app can also be accessed online via the following link:
-
-<https://olatunjijohnson.shinyapps.io/mbgapp/>
+MBGapp serves is an application tailored for instructing population health scientists in geostatistical analysis. Utilizing a Loa loa infection case study, we showcase MBGapp's potential for delivering interactive instruction across the various stages of geostatistical analysis. To enhance accessibility and usability, MBGapp is accessible both as an R package and a Shiny web application, readily available through standard web browsers. MBGapp relies on the maximum likelihood method for estimation and is structured around four primary tabs: "Explore," "Variogram," "Estimation," and "Prediction," each mirroring distinct steps in geostatistical analysis, as elaborated in the "Results" section, which also details the sidebar functionalities for these tabs within the primary interface. Original: https://doi.org/10.1371/journal.pone.0262145
